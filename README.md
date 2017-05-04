@@ -24,7 +24,7 @@ a `.rubocop.yml` file at the top-level directory in your project:
 
 ```yaml
 inherit_gem:
-  rubocop-salemove: conf/default.yml
+  rubocop-salemove: config/default.yml
 ```
 
 Further customization of RuboCop for your local project may also be added to
