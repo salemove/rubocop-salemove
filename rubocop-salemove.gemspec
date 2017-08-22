@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/salemove/rubocop-salemove'
   s.license     = 'MIT'
 
-  s.add_dependency 'rubocop', '~> 0.48'
+  s.add_dependency 'rubocop', '~> 0.49'
   s.add_dependency 'rubocop-rspec', '~> 1.15'
 end
