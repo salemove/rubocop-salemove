@@ -3,28 +3,28 @@ require: rubocop-rspec
 AllCops:
   DisplayCopNames: yes
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
-Style/IndentArray:
+Layout/IndentArray:
   EnforcedStyle: consistent
 
-Style/FirstParameterIndentation:
+Layout/FirstParameterIndentation:
   EnforcedStyle: consistent
 
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-Style/MultilineMethodDefinitionBraceLayout:
+Layout/MultilineMethodDefinitionBraceLayout:
   EnforcedStyle: new_line
 
 Style/EmptyElse:
