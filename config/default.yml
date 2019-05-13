@@ -12,13 +12,13 @@ Layout/MultilineOperationIndentation:
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   EnforcedStyle: consistent
 
 Layout/SpaceInsideHashLiteralBraces:
