@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rubocop-salemove'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2017-05-04'
   s.summary     = 'RuboCop SaleMove'
   s.description = 'Shared RuboCop configuration for SaleMove projects'
@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/salemove/rubocop-salemove'
   s.license     = 'MIT'
 
-  s.add_dependency 'rubocop', '~> 0.68'
+  s.add_dependency 'rubocop', '~> 0.78'
   s.add_dependency 'rubocop-rspec', '~> 1.15'
 end
