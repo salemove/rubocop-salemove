@@ -9,16 +9,16 @@ Layout/MultilineMethodCallIndentation:
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   EnforcedStyle: consistent
 
 Layout/SpaceInsideHashLiteralBraces:
@@ -27,11 +27,11 @@ Layout/SpaceInsideHashLiteralBraces:
 Layout/MultilineMethodDefinitionBraceLayout:
   EnforcedStyle: new_line
 
+Layout/LineLength:
+  Max: 120
+
 Style/EmptyElse:
   EnforcedStyle: empty
 
 Style/Documentation:
   Enabled: no
-
-Metrics/LineLength:
-  Max: 120
