@@ -2,6 +2,7 @@ require: rubocop-rspec
 
 AllCops:
   DisplayCopNames: yes
+  NewCops: enable
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
