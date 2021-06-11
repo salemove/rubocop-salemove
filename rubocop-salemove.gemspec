@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rubocop-salemove'
-  s.version     = '0.0.5'
+  s.version     = '1.0.0'
   s.date        = '2017-05-04'
   s.summary     = 'RuboCop SaleMove'
   s.description = 'Shared RuboCop configuration for SaleMove projects'
