@@ -37,3 +37,6 @@ Style/EmptyElse:
 
 Style/Documentation:
   Enabled: no
+
+RSpec/NoExpectationExample:
+  Enabled: no
