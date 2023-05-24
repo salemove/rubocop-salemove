@@ -1,12 +1,27 @@
 require: rubocop-rspec
 
 AllCops:
-  DisplayCopNames: yes
+  DisplayCopNames: true
   NewCops: enable
   SuggestExtensions: false
 
+Layout/FirstArgumentIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 120
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
 
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
@@ -14,32 +29,44 @@ Layout/MultilineOperationIndentation:
 Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
-Layout/FirstHashElementIndentation:
-  EnforcedStyle: consistent
-
-Layout/FirstArrayElementIndentation:
-  EnforcedStyle: consistent
-
-Layout/FirstArgumentIndentation:
-  EnforcedStyle: consistent
-
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-Layout/MultilineMethodDefinitionBraceLayout:
-  EnforcedStyle: new_line
+Metrics/BlockLength:
+  Enabled: false
 
-Layout/LineLength:
-  Max: 120
+Metrics/MethodLength:
+  Max: 15
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/Documentation:
+  Enabled: false
 
 Style/EmptyElse:
   EnforcedStyle: empty
 
-Style/Documentation:
-  Enabled: no
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/IndexedLet:
+  Max: 2
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 4
 
 RSpec/NoExpectationExample:
-  Enabled: no
-
-RSpec/ExampleLength:
   Enabled: false
