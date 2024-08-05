@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency 'rubocop', '~> 1.36'
-  s.add_dependency 'rubocop-rspec', '~> 2.13'
+  s.add_dependency 'rubocop-rspec', ['>= 2.13', '< 4.0']
 end
