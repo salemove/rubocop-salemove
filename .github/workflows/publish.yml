@@ -7,11 +7,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # rake release pushes the version tag
 
     steps:
-      - uses: actions/checkout@v3
+      # publish-rubygems-action runs `rake release`, which pushes the version
+      # tag using the git credentials persisted by checkout, so credential
+      # persistence must be kept.
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3.7.0
         with:
           fetch-depth: 2
+          persist-credentials: true # zizmor: ignore[artipacked]
       - name: Release Gem
         uses: discourse/publish-rubygems-action@ec5415e2cc3509a5cc8c4eef9499cf3fb05f8391
         env:
